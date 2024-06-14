@@ -110,6 +110,10 @@ main {
     opacity: 0.9;
 }
 
+.fundo-mobile {
+    display: none;
+}
+
 .p1 {
     font-weight: bold;
     color: #637080;
@@ -385,8 +389,7 @@ footer article section2 p {
         flex-direction: column;
         height: 100%;
         width: 100%;
-        display: flex;
-        background-color: white;
+        background-color: rgb(255, 255, 255);
     }
 
     .article1 {
@@ -405,6 +408,13 @@ footer article section2 p {
         height: none;
         width: none;
         opacity: 0.9;
+    }
+
+    .fundo-mobile {
+        position: none;
+        height: 100%;
+        width: 99%;
+        z-index: -1;
     }
 
     .p1 {
