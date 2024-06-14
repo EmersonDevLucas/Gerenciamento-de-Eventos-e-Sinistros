@@ -297,7 +297,7 @@ footer article section2 p {
     border-top: solid 1px #34344e71;
 }
 
-@media(max-width: 450px) {
+@media(max-width: 600px) {
     body {
         height: 100%;
         width: 100%;
