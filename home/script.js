@@ -1,5 +1,5 @@
 document.getElementById('fazer-login').onclick = function() {
-    window.open('http://127.0.0.1:5500/FRONT/FRONTEND%20LOGIN/FrontLogin.html') 
+    window.open('https://emersondevlucas.github.io/Gerenciamento-de-Eventos-e-Sinistros/login') 
 }
 
 document.getElementById('whatsapp').onclick = function() {

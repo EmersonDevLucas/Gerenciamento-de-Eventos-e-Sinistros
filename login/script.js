@@ -12,7 +12,7 @@ document.getElementById('entrar').onclick = function() {
         console.log("Campos vazios detectados");
     } else if (usuario === "gold2024" && senha === "Gold2024") {
         console.log("Credenciais corretas, redirecionando...");
-        window.open("http://127.0.0.1:5500/FRONT/FRONTEND%20RELAT%C3%93RIOS/FrontMenu.html");
+        window.open("https://emersondevlucas.github.io/Gerenciamento-de-Eventos-e-Sinistros/menu");
     } else {
         alert("Credenciais incorretas");
         console.log("Credenciais incorretas");
