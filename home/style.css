@@ -53,6 +53,7 @@ header {
     justify-content: center;
     backdrop-filter: blur(13.5px);
     -webkit-backdrop-filter: blur(13.5px);
+    z-index: 2;
 
 }
 
@@ -158,6 +159,7 @@ main {
 
 .article2 img {
     position: relative;
+    z-index: 1;
     margin: 150px 50px;
     height: 150px;
     filter: grayscale(1);
