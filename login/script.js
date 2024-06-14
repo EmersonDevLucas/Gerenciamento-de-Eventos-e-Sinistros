@@ -18,3 +18,7 @@ document.getElementById('entrar').onclick = function() {
         console.log("Credenciais incorretas");
     }
 }
+
+document.getElementById('reset-senha').onclick = function() {
+    
+}
