@@ -297,12 +297,14 @@ footer article section2 p {
     border-top: solid 1px #34344e71;
 }
 
-@media(max-width: 400px) {
+@media(max-width: 450px) {
     body {
         height: 100%;
         width: 100%;
         display: flex;
         flex-direction: column;
+        text-align: center;
+        align-items: center;
         font-family: "Open Sans", sans-serif;
         font-optical-sizing: auto;
         font-style: normal;
@@ -360,8 +362,8 @@ footer article section2 p {
     }
 
     header nav button {
-        height: 30px;
-        width: 100px;
+        height: 35px;
+        width: 130px;
         border-radius: 10px;
         border: solid 1px #566981;
         margin-top: 10px;
@@ -406,18 +408,19 @@ footer article section2 p {
     }
 
     .p1 {
-        width: 200px;
+        width: 250px;
         font-weight: bold;
         color: #637080;
     }
 
     .article1 h1 {
-        font-size: 30px;
+        width: 300px;
+        font-size: 40px;
         color: #34344e;
     }
 
     .p2 {
-        width: 200px;
+        width: 300px;
     }
 
     .article2 {
@@ -500,7 +503,7 @@ footer article section2 p {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: 100px;
+        margin-top: 50px;
         display: flex;
         gap: 0px;
         align-items: center;
@@ -511,7 +514,7 @@ footer article section2 p {
     }
 
     .article4 figure img {
-        height: 200px;
+        height: 300px;
     }
 
     .article4 section {
@@ -527,7 +530,7 @@ footer article section2 p {
         font-weight: bold;
         color: #34344e;
         margin-bottom: 50px;
-        width: 200px;
+        width: 300px;
     }
 
     .article4 section button {
@@ -547,6 +550,10 @@ footer article section2 p {
         background-color: white;
         color: #637080;
         border: solid 1px #34344e;
+    }
+
+    footer {
+        width: 100%;
     }
 
     footer article {
