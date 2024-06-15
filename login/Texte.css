@@ -25,6 +25,35 @@ body {
   display: none;
 }
 
+.reset-senha {
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  height: 360px;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  gap: 30px;
+  justify-content: center;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+  margin-top: 90px;
+  box-shadow: 0 4px 8px 0 rgba(180, 180, 180, 0.2), 0 6px 20px 0 rgba(180, 180, 180, 0.2);
+
+}
+
+.reset-senha h1 {
+  font-weight: lighter;
+  width: 400px;
+  font-size: 20px;
+}
+
+.reset-senha p {
+  font-size: 12px;
+  width: 400px;
+  font-weight: lighter;
+}
+
 form {
   display: flex;
   flex-direction: column;
