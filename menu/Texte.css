@@ -71,7 +71,7 @@ header nav div p {
 
 
 header nav button {
-  height: 35px;
+  height: 40px;
   width: 150px;
   border: none;
   border-radius: 3px;
@@ -79,6 +79,7 @@ header nav button {
   color: white;
   font-weight: 400;
   cursor: pointer;
+  font-size: 12px;
 }
 
 header nav button:hover {
