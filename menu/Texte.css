@@ -111,6 +111,11 @@ header nav ul li i {
   width: 25px;
 }
 
+main {
+  height: 100%;
+  width: 100%;
+}
+
 .gestao {
   height: 100%;
   width: 100%;
@@ -118,3 +123,117 @@ header nav ul li i {
   flex-direction: column;
 }
 
+.gestao header {
+  height: 100px;
+  width: 100%;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 20px 20px;
+  color: #34344e;
+}
+
+.topo section a {
+  padding: 10px 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.topo section a i {
+  color: #34344e;
+  cursor: pointer;
+}
+
+.topo section a i:hover {
+  color: #383838;
+  transition: .3s;
+
+}
+
+.baixo-topo {
+  display: inline-flex;
+  height: 0px;
+  width: 95%;
+  justify-content: space-between;
+  color: #34344e;
+  padding: 0px 20px;
+}
+
+.baixo-topo section {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.baixo-topo section p {
+  font-size: 10px;
+}
+
+.baixo-topo section h1 {
+  font-size: 20px;
+}
+
+.baixo-topo section a {
+  display: flex;
+  gap: 5px;
+  color: #34344e;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.baixo-topo section input {
+  padding: 10px;
+  height: 5px;
+  width: 350px;
+  border: solid 1px #34344e;
+  border-radius: 3px;
+}
+
+.listagem {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.type-lista {
+  display: inline-flex;
+  font-size: 10px;
+  width: 90%;
+  justify-content: space-between;
+  padding: 8px 20px;
+  color: #34344e;
+}
+
+.type-lista i {
+  color: white;
+}
+
+.lista {
+  padding: 10px 20px;
+  display: inline-flex;
+  height: 20px;
+  width: 91%;
+  border: solid 1px #d6d6d6;
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 9px;
+  border-radius: 3px;
+  color: #34344e;
+}
+
+.lista h1, p {
+  padding: 2px 0px;
+}
+
+.lista h1 {
+  width: 160px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; 
+}
