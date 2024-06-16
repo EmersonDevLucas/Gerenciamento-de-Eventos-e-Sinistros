@@ -51,8 +51,8 @@ header {
     background-color: none;
     align-items: center;
     justify-content: center;
-    backdrop-filter: blur(13.5px);
     -webkit-backdrop-filter: blur(13.5px);
+    backdrop-filter: blur(13.5px);
     z-index: 2;
 
 }
@@ -352,8 +352,8 @@ footer article section2 p {
         background-color: none;
         align-items: center;
         justify-content: center;
-        backdrop-filter: blur(13.5px);
         -webkit-backdrop-filter: blur(13.5px);
+        backdrop-filter: blur(13.5px);
 
     }
 

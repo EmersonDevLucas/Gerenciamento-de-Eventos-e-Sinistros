@@ -15,15 +15,24 @@
   <body>
     <header>
       <nav>
-        <div class="usuario"></div>
+        <div id="usuario">
+          <figure>
+            <img src="marca dágua youtube.png" alt="logogold" />
+          </figure>
+          <section>
+            <h1>Gold Associação de Benefícios Mútuos</h1>
+            <p>eventos@gold.org.br</p>
+          </section>
+        </div>
 
-        <button class="adicionar" id="adicionar">Adicionar</button>
+        <button class="adicionar" id="adicionar">Novo item</button>
 
         <ul>
-          <li>Dashboard</li>
-          <li>Gestão</li>
-          <li>Organização</li>
-          <li>Operacional</li>
+          <li><i class="fa-solid fa-house"></i>Dashboard</li>
+          <li><i class="fa-regular fa-newspaper"></i>Gestão</li>
+          <li><i class="fa-solid fa-sitemap"></i>Organização</li>
+          <li><i class="fa-brands fa-squarespace"></i>Operacional</li>
+          <li><i class="fa-regular fa-building"></i>Empresa</li>
         </ul>
       </nav>
     </header>
@@ -31,7 +40,7 @@
     <main>
       <article class="dashboard" id="dashboard"></article>
 
-      <article class="gestão" id="gestão">
+      <article class="gestao" id="gestao">
         <header>
           <section class="topo">
             <p>Gestão / Listagem</p>
@@ -43,39 +52,39 @@
           <section class="baixo-top">
             <h1>Eventos</h1>
             <p>Total de 20</p>
-            <p><a href="#"><i class="fa-light fa-share"></i>Exportar</a></p>
-            <input type="text" id="buscar" placeholder="Busque aqui...">
+            <p>
+              <a href="#"><i class="fa-light fa-share"></i>Exportar</a>
+            </p>
+            <input type="text" id="buscar" placeholder="Busque aqui..." />
           </section>
-
-          <section class="listagem">
-            <div class="lista">
-              <div class="nome-placa">
-                <p>Jone Emerson de Souza de Piaui</p>
-                <p>OPE1H32</p>
-              </div>
-
-              <div class="email-telefone">
-                <p>joneemersonsp@gmail.com</p>
-                <p>(21) 96413-2589</p>
-              </div>
-
-              <div class="evento">
-                <p>Colisão</p>
-              </div>
-
-              <i class="fa-solid fa-arrow-right"></i>
-
-            </div>
-          </section>
-
         </header>
 
-        <main></main>
+        <article class="listagem">
+          <div class="lista">
+            <div class="nome-placa">
+              <p>Jone Emerson de Souza de Piaui</p>
+              <p>OPE1H32</p>
+            </div>
+
+            <div class="email-telefone">
+              <p>joneemersonsp@gmail.com</p>
+              <p>(21) 96413-2589</p>
+            </div>
+
+            <div class="evento">
+              <p>Colisão</p>
+            </div>
+
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </article>
       </article>
 
       <article class="organização" id="organização"></article>
 
       <article class="operacional" id="operacional"></article>
+
+      <article class="Empresa" id="Empresa"></article>
     </main>
 
     <footer></footer>
