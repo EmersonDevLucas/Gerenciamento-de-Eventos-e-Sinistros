@@ -8,7 +8,7 @@
 body {
   display: flex;
   height: 100%;
-  width: 100%;
+  width: 100vw;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -114,19 +114,19 @@ header nav ul li i {
 
 main {
   height: 100%;
-  width: 100%;
+  width: 100vw;
 }
 
-.gestao {
+.novo-item {
   height: 100%;
-  width: 96%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
 }
 
-.gestao header {
+.novo-item header {
   height: 100px;
-  width: 100%;
+  width: 100vw;
 }
 
 .topo {
@@ -157,7 +157,7 @@ main {
 .baixo-topo {
   display: inline-flex;
   height: 0px;
-  width: 95%;
+  width: 100vw;
   justify-content: space-between;
   color: #34344e;
   padding: 0px 20px;
@@ -185,57 +185,37 @@ main {
   font-size: 12px;
 }
 
-.baixo-topo section input {
-  padding: 10px;
-  height: 5px;
-  width: 350px;
-  border: solid 1px #34344e21;
-  border-radius: 3px;
+form {
+    height: 100%;
+    width: 80vw;
+    padding: 20px 20px;   
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    gap: 20px;
 }
 
-.listagem {
-  display: flex;
-  flex-direction: column;
-  padding: 0px 20px;
-  height: 100%;
-  width: 100%;
+form section {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
-.type-lista {
-  display: inline-flex;
-  font-size: 10px;
-  width: 90%;
-  justify-content: space-between;
-  padding: 8px 20px;
-  color: #34344e;
+form label {
+    font-size: 16px;
 }
 
-.type-lista i {
-  color: white;
+form select, input {
+    width: 300px;
+    height: 25px;
+    border: solid 1px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 0px 5px;
 }
 
-.lista {
-  padding: 10px 20px;
-  display: inline-flex;
-  height: 20px;
-  width: 91%;
-  margin-bottom: 3px;
-  border: solid 1px #d6d6d6;
-  background-color: white;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 9px;
-  border-radius: 3px;
-  color: #34344e;
+#placa {
+    width: 100px;
 }
 
-.lista h1, p {
-  padding: 2px 0px;
-}
-
-.lista h1 {
-  width: 160px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden; 
-}

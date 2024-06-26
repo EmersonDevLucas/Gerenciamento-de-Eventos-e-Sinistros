@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GSE - Relatórios</title>
+    <link rel="icon" href="GES.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="usuario">
+                <figure>
+                    <img src="marca dágua youtube.png" alt="logogold" />
+                </figure>
+                <section>
+                    <h1>Gold Associação de Benefícios Mútuos</h1>
+                    <p>eventos@gold.org.br</p>
+                </section>
+            </div>
+
+            <button class="adicionar" id="adicionar">Novo item</button>
+
+            <ul>
+                <li id="dashboard-nav"><i class="fa-solid fa-house"></i>Dashboard</li>
+                <li id="gestao-nav"><i class="fa-regular fa-newspaper"></i>Gestão</li>
+                <li id="organizaçao-nav">
+                    <i class="fa-solid fa-sitemap"></i>Organização
+                </li>
+                <li id="operacional-nav">
+                    <i class="fa-brands fa-squarespace"></i>Operacional
+                </li>
+                <li id="empresas-nav">
+                    <i class="fa-regular fa-building"></i>Empresa
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <article class="novo-item" id="novo-item">
+            <header>
+                <section class="topo">
+                    <p>Gestão / Listagem</p>
+                    <section>
+                        <a href="#"><i class="fa-solid fa-question"></i>.</a>
+                        <a href="#"><i class="fa-regular fa-folder"></i>.</a>
+                        <a href="#"><i class="fa-regular fa-user"></i>.</a>
+                    </section>
+                </section>
+
+                <section class="baixo-topo">
+                    <section>
+                        <h1>Novo item</h1>
+                    </section>
+                </section>
+            </header>
+            <form id="form">
+                <section class="analista">
+                    <label for="title">Analista</label>
+                    <select type="text" name="analista" id="analista">
+                        <option value="0">Selecione</option>
+                        <option value="1">Emerson Lucas</option>
+                        <option value="1">Jone Emerson</option>
+                        <option value="1">Mylena Vitória</option>
+                    </select>
+                </section>
+                <section class="evento">
+                    <label for="title">Evento</label>
+                    <select type="text" name="evento" id="evento">
+                        <option value="0">Selecione</option>
+                        <option value="1">Colisão</option>
+                        <option value="1">Roubo/Furto</option>
+                        <option value="1">Capotamento</option>
+                        <option value="1">Incêncio</option>
+                        <option value="1">Alagamento</option>
+
+                    </select>
+                </section>
+                <section class="associado">
+                    <label for="title">Associado</label>
+                    <input type="text" name="associado" id="associado">
+                </section>
+                <section class="placa">
+                    <label for="title">Placa</label>
+                    <input type="text" name="placa" id="placa">
+                </section>
+                <section class="chassi">
+                    <label for="title">Chassi</label>
+                    <input type="text" name="chassi" id="chassi">
+                </section>
+            </form>   
+        </article>    
+
+    </main>         
+
+</body>
