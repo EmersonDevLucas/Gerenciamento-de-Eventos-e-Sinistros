@@ -208,7 +208,7 @@ form article {
   gap: 20px;
 }
 
-form article button {
+#buttonterceiro {
   display: block;
   height: 40px;
   width: 150px;
@@ -221,18 +221,27 @@ form article button {
   font-size: 12px;
 }
 
-form article div {
+#buttonterceiro2 {
+  display: block;
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 3px;
+  background-color: #34344e;
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.linha {
   width: 10px;
   background-color: #34344e;
 }
 
-.abas {
-  display: flex;
-  flex-direction: column;
-}
-
 .abasterceiro {
   display: none;
+  gap: 20px;
 }
 
 form section {
@@ -258,4 +267,10 @@ input {
 
 #placa {
   width: 100px;
+}
+
+.historicoocorrencia textarea {
+  text-align: start;
+  width: 800px;
+  height: 200px;
 }

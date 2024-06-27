@@ -61,7 +61,7 @@
             </header>
             <form id="form">
                 <article>
-                    <div></div>
+                    <div class="linha"></div>
                     <section class="analista">
                         <label for="title">Analista</label>
                         <select type="text" name="analista" id="analista">
@@ -84,7 +84,7 @@
                     </section>
                 </article>
                 <article>
-                    <div></div>
+                    <div class="linha"></div>
                     <section class="associado">
                         <label for="title">Associado</label>
                         <input type="text" name="associado" id="associado">
@@ -103,9 +103,9 @@
                     </section>
                 </article>
                 <article>
-                    <div></div>
+                    <div class="linha"></div>
                     <button id="buttonterceiro">Terceiro</button>
-                    <div class="abasterceiro">
+                    <div class="abasterceiro" id="abasterceiro">
                         <section class="terceiro">
                             <label for="title">Terceiro</label>
                             <input type="text" name="terceiro" id="terceiro">
@@ -124,9 +124,56 @@
                         </section>
                     </div>
                 </article>
+                <article>
+                    <div class="linha"></div>
+                    <button id="buttonterceiro2">Terceiro</button>
+                    <div class="abasterceiro" id="abasterceiro2">
+                        <section class="terceiro">
+                            <label for="title">Terceiro</label>
+                            <input type="text" name="terceiro" id="terceiro">
+                        </section>
+                        <section class="placa">
+                            <label for="title">Placa</label>
+                            <input type="text" name="placa" id="placa">
+                        </section>
+                        <section class="chassi">
+                            <label for="title">Chassi</label>
+                            <input type="text" name="chassi" id="chassi">
+                        </section>
+                        <section class="marca">
+                            <label for="title">Marca/Modelo</label>
+                            <input type="text" name="marca" id="marca" placeholder="Ex: Honda - Fit EXL 1.0">
+                        </section>
+                    </div>
+                </article>
+                <article>
+                    <div class="linha"></div>
+                    <section class="data/hora">
+                        <label for="title">Data/Hora</label>
+                        <input type="datetime-local" name="data" id="data">
+                    </section>
+                    <section class="local">
+                        <label for="title">Local</label>
+                        <input type="text" name="local" id="local">
+                    </section>
+                </article>
+                <article>
+                    <div class="linha"></div>
+                    <section class="historicoocorrencia">
+                        <label for="title">Histórico da ocorrência</label>
+                        <textarea type="text" placeholder="Descreva aqui..." id="historicoocorrencia" minlength="10">
+                    </section>
+                </article>
+                <article>
+                    <div class="linha"></div>
+                    <section class="entrevistas">
+                        <label for="title">Entrevista Associado</label>
+                        <input type="file" name="entrevista" id="entrevistaassociado">
+                    </section>
+                </article>
+                
             </form>   
         </article>    
-
     </main>         
     <script src="script.js"></script>
 </body>

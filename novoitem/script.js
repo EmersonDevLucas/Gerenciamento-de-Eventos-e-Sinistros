@@ -17,6 +17,13 @@ document.getElementById("adicionar").onclick = function () {
 };
 
 document.getElementById('buttonterceiro').onclick = function() {
-  document.getElementById('abasterceiro').style.display = 'block'
+  event.preventDefault();
+  document.getElementById('abasterceiro').style.display = 'flex'
+  document.getElementById('buttonterceiro').style.display = 'none'
+}
 
+document.getElementById('buttonterceiro2').onclick = function() {
+  event.preventDefault();
+  document.getElementById('abasterceiro2').style.display = 'flex'
+  document.getElementById('buttonterceiro2').style.display = 'none'
 }
