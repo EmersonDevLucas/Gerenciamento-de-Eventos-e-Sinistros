@@ -6,6 +6,7 @@
 }
 
 body {
+  position: fixed;
   display: flex;
   height: 100%;
   width: 100%;
@@ -62,7 +63,7 @@ header nav div h1 {
   font-size: 13px;
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 header nav div p {
@@ -201,6 +202,7 @@ form {
   flex-direction: column;
   background-color: rgb(255, 255, 255);
   gap: 20px;
+  overflow: auto;
 }
 
 form article {
@@ -251,7 +253,7 @@ form section {
 }
 
 form label {
-  font-size: 16px;    
+  font-size: 16px;
 }
 
 form select,
@@ -269,8 +271,18 @@ input {
   width: 100px;
 }
 
-.historicoocorrencia textarea {
-  text-align: start;
+#marca {
+  width: 200px;
+}
+
+#entrevistaassociado,
+#entrevistaterceiro,
+#fotoveiculo {
+  border: none;
+}
+
+.historico textarea {
   width: 800px;
-  height: 200px;
+  height: 150px;
+  padding: 5px;
 }
