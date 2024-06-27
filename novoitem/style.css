@@ -209,6 +209,7 @@ form article {
 }
 
 form article button {
+  display: block;
   height: 40px;
   width: 150px;
   border: none;

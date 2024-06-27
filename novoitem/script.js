@@ -18,6 +18,5 @@ document.getElementById("adicionar").onclick = function () {
 
 document.getElementById('buttonterceiro').onclick = function() {
   document.getElementById('abasterceiro').style.display = 'block'
-  document.getElementById('buttonterceiro').style.display = 'none'
 
 }
