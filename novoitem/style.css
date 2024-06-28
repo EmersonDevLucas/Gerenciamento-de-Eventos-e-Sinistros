@@ -236,6 +236,14 @@ form article {
   font-size: 12px;
 }
 
+#buttonterceiro:hover,
+#buttonterceiro2:hover {
+  background-color: #383838;
+  color: #e7e7e7;
+  transition: .1s;
+}
+
+
 .linha {
   width: 10px;
   background-color: #34344e;
@@ -297,4 +305,23 @@ input {
   height: 200px;
   padding: 5px;
 
+}
+
+#salvar {
+  display: block;
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 3px;
+  background-color: #34344e;
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+#salvar:hover {
+  background-color: #383838;
+  color: #e7e7e7;
+  transition: .1s;
 }
