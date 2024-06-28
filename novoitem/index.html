@@ -91,15 +91,15 @@
                     </section>
                     <section class="placa">
                         <label for="title">Placa</label>
-                        <input type="text" name="placa" id="placa">
+                        <input type="text" name="placa" id="placaassociado">
                     </section>
                     <section class="chassi">
                         <label for="title">Chassi</label>
-                        <input type="text" name="chassi" id="chassi">
+                        <input type="text" name="chassi" id="chassiassociado">
                     </section>
                     <section class="marca">
                         <label for="title">Marca/Modelo</label>
-                        <input type="text" name="marca" id="marca" placeholder="Ex: Honda - Fit EXL 1.0">
+                        <input type="text" name="marca" id="marcaassociado" placeholder="Ex: Honda - Fit EXL 1.0">
                     </section>
                 </article>
                 <article>
@@ -112,15 +112,15 @@
                         </section>
                         <section class="placa">
                             <label for="title">Placa</label>
-                            <input type="text" name="placa" id="placa">
+                            <input type="text" name="placa" id="placaterceiro">
                         </section>
                         <section class="chassi">
                             <label for="title">Chassi</label>
-                            <input type="text" name="chassi" id="chassi">
+                            <input type="text" name="chassi" id="chassiterceiro">
                         </section>
                         <section class="marca">
                             <label for="title">Marca/Modelo</label>
-                            <input type="text" name="marca" id="marca" placeholder="Ex: Honda - Fit EXL 1.0">
+                            <input type="text" name="marca" id="marcaterceiro" placeholder="Ex: Honda - Fit EXL 1.0">
                         </section>
                     </div>
                 </article>
@@ -130,19 +130,19 @@
                     <div class="abasterceiro" id="abasterceiro2">
                         <section class="terceiro">
                             <label for="title">Terceiro</label>
-                            <input type="text" name="terceiro" id="terceiro">
+                            <input type="text" name="terceiro" id="terceiro2">
                         </section>
                         <section class="placa">
                             <label for="title">Placa</label>
-                            <input type="text" name="placa" id="placa">
+                            <input type="text" name="placa" id="placaterceiro2">
                         </section>
                         <section class="chassi">
                             <label for="title">Chassi</label>
-                            <input type="text" name="chassi" id="chassi">
+                            <input type="text" name="chassi" id="chassiterceiro2">
                         </section>
                         <section class="marca">
                             <label for="title">Marca/Modelo</label>
-                            <input type="text" name="marca" id="marca" placeholder="Ex: Honda - Fit EXL 1.0">
+                            <input type="text" name="marca" id="marcaterceiro2" placeholder="Ex: Honda - Fit EXL 1.0">
                         </section>
                     </div>
                 </article>
@@ -167,24 +167,54 @@
                 <article>
                     <div class="linha"></div>
                     <section class="entrevista">
-                        <label for="title">Entrevista Associado</label>
-                        <input type="file" name="entrevistaassociado" id="entrevistaassociado">
-                    </section>
-                    <section class="entrevista">
-                        <label for="title">Entrevista Terceiro</label>
-                        <input type="file" name="entrevistaterceiro" id="entrevistaterceiro">
+                        <label for="title">Entrevista Associado - Relato</label>
+                        <textarea name="entrevista" placeholder="Descreva aqui..." id="entrevistaassociado"></textarea>
                     </section>
                 </article>
                 <article>
                     <div class="linha"></div>
-                    <section class="fotoveiculo">
-                        <label for="title">Fotos Veiculos</label>
-                        <input type="file" name="fotoveiculo" id="fotoveiculo">
+                    <section class="entrevista">
+                        <label for="title">Entrevista Terceiro - Relato</label>
+                        <textarea name="entrevista" placeholder="Descreva aqui..." id="entrevistaterceiro"></textarea>
                     </section>
                 </article>
-                
-            </form>   
-        </article>    
-    </main>         
+                <article>
+                    <div class="linha"></div>
+                    <section class="cnh">
+                        <label for="title">CNH - Nº</label>
+                        <input type="text" name="cnh" id="cnh">
+                    </section>
+                    <section class="validade">
+                        <label for="title">Validade</label>
+                        <input type="date" name="validade" id="validade">
+                    </section>
+                    <section class="categoria">
+                        <label for="title">Categoria</label>
+                        <select type="text" name="categoria" id="categoria">
+                            <option value="1">A</option>
+                            <option value="1">AB</option>
+                            <option value="1">B</option>
+                            <option value="1">D</option>
+                            <option value="1">E</option>
+                        </select>
+                    </section>
+                </article>
+                <article>
+                    <div class="linha"></div>
+                    <section class="descriçãorastreador">
+                        <label for="title">Descrição rastreador</label>
+                        <textarea name="descriçãorastreador" placeholder="Descreva aqui..." id="descriçãorastreador"></textarea>
+                    </section>
+                </article>
+                <article>
+                    <div class="linha"></div>
+                    <section class="parecer">
+                        <label for="title">Parecer</label>
+                        <textarea name="parecer" placeholder="Descreva aqui..." id="parecer"></textarea>
+                    </section>
+                </article>
+            </form>
+        </article>
+    </main>
     <script src="script.js"></script>
 </body>

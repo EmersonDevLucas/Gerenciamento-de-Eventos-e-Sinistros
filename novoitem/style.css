@@ -267,22 +267,34 @@ input {
   padding: 0px 5px;
 }
 
-#placa {
+#placaassociado,
+#placaterceiro,
+#placaterceiro2 {
   width: 100px;
 }
 
-#marca {
+#marcaassociado,
+#marcaterceiro,
+#marcaterceiro2 {
   width: 200px;
 }
 
-#entrevistaassociado,
-#entrevistaterceiro,
 #fotoveiculo {
   border: none;
 }
 
-.historico textarea {
+.historico textarea,
+.descriçãorastreador textarea,
+#entrevistaassociado,
+#entrevistaterceiro {
   width: 800px;
   height: 150px;
   padding: 5px;
+}
+
+#parecer {
+  width: 800px;
+  height: 200px;
+  padding: 5px;
+
 }
