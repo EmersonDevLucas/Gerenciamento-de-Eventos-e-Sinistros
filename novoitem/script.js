@@ -55,8 +55,4 @@ document.getElementById('salvar').onclick = function salvar() {
   let parecer = document.getElementById('parecer')
   let documentos = document.getElementById('documentos')
 
-  
-
-
-
  }
