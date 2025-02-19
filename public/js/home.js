@@ -1,5 +1,5 @@
 document.getElementById('fazer-login').onclick = function() {
-    window.location.replace('https://emersondevlucas.github.io/Gerenciamento-de-Eventos-e-Sinistros/login') 
+    window.location.replace('https://emersondevlucas.github.io/Gerenciamento-de-Eventos-e-Sinistros/views/login') 
 }
 
 document.getElementById('whatsapp').onclick = function() {
